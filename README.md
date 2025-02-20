@@ -17,3 +17,5 @@ Dieses Projekt hat zum Ziel, eine präzise Seegangsvorhersage zu entwickeln. Der
 ## 📈 Ergebnisse 
 Die Ergebnisse dieses Projekts, einschließlich der Vorhersagen und Evaluierungen, sind nicht in diesem Repository enthalten. Du kannst die Ergebnisse jedoch selbst generieren, indem du den Code ausführst und den bereitgestellten Datensatz verwendest.  
 Für weitere Informationen oder spezifische Fragen zu den Ergebnissen kannst du mich gerne kontaktieren.
+## Deskription
+Der Code ist wie folgt strukturiert:
