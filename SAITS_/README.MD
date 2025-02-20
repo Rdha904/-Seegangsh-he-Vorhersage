@@ -16,5 +16,5 @@ Ein grafischer Überblick über den gemeinsamen Optimierungsansatz im Training, 
 
 
 
-# Seegangshöhe Vorhersagen
+## Literatur
 https://arxiv.org/pdf/2202.08516
