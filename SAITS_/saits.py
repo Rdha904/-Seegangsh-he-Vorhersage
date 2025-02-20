@@ -227,7 +227,7 @@ if __name__ == "__main__":
 
 
 
-    data = pd.read_csv('/home/elounita/SAITS_/dein_dateiname.csv', sep=',')
+    data = pd.read_csv('/pfad/datensatz/', sep=',')
     data = data.replace(',', ';')
     processed_data,dataset_for_training,dataset_for_validating,dataset_for_testing,test_X_indicating_mask,test_X_ori= wave_data(data,n_steps,rate)
     saits=SAITS_model(processed_data,n_layers,batch_size,lr)

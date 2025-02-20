@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Schritt 1: Lade deinen Datensatz (ersetze den Pfad entsprechend)
-df = pd.read_csv('/home/elounita/SAITS_/imputed_data_2.csv', sep=';')
+df = pd.read_csv('/pfad/datensatz/', sep=';')
 
 # Schritt 2: Konvertiere die 'Time'-Spalte in das Datetime-Format
 df['Time'] = pd.to_datetime(df['Time'])
@@ -27,7 +27,7 @@ plt.xticks(rotation=45)  # Drehung der x-Achsen-Beschriftung, falls nötig
 plt.grid(True)
 
 # Schritt 7: Speichere den Plot als Bilddatei
-plt.savefig('/home/elounita/SAITS_/_____saits.png')  # Hier den gewünschten Pfad angeben
+plt.savefig('/home/elounita/SAITS_/saits.png')  # Hier den gewünschten Pfad angeben
 
 # Schritt 8: Zeige den Plot an
 plt.show()

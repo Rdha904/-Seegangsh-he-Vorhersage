@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Schritt 2: Bereite deinen Datensatz vor
 # Angenommen, df ist dein DataFrame mit den fehlenden Werten
-df = pd.read_csv('/home/elounita/SAITS_/dein_dateiname.csv', sep=',')
+df = pd.read_csv('/pfad/datensatz/', sep=',')
 print(df.columns)
 
 n_steps=48
