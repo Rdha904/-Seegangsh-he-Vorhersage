@@ -1,1 +1,1 @@
-![Alt-Text des Bildes](SAITS_/SAITS.jpg)
+![Alt-Text des Bildes](SAITS.jpg)
