@@ -35,3 +35,6 @@ SAITS_:
 Model.py: Diese Datei enthält die Implementierung des **Seq2Seq LSTM-Modells mit Luong Attention**. Sie definiert die Architektur des Modells, einschließlich der Encoder- und Decoder-Komponenten sowie des Attention-Mechanismus, der es dem Modell ermöglicht, wichtige Teile der Eingabesequenzen zu fokussieren.
 
 train.py:  Dieses Skript wird verwendet, um das Modell zu trainieren. Es lädt die vorverarbeiteten Daten, konfiguriert das Modell, und führt das Training durch. Am Ende wird mit dem Testdatensatz evaluiert.
+
+## Literatur
+https://journals.ametsoc.org/view/journals/aies/2/1/AIES-D-22-0033.1.xml
