@@ -44,7 +44,7 @@ class Decoder(nn.Module):
         self.fc = nn.Linear(hidden_size * 2, output_size)  # Concatenate context vector with LSTM output
 
     def forward(self, x, hidden, cell, encoder_outputs):
-        # LSTM output
+        # LSTM outputt
         lstm_output, (hidden, cell) = self.lstm(x, (hidden, cell))
         
         # Calculate attention and context vector
